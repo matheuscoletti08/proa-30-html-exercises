@@ -1,0 +1,22 @@
+/* o elemento: pega todos os h1 dentro de .ex24 */
+.ex24 h1 {
+  color: #222;
+  font-size: 28px;
+}
+/* line-height é o espacamento entre linhas */
+.ex24 p {
+  color: #444;
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+/* classe: .destaque */
+.ex24 .destaque {
+  background: yellow;
+  padding: 5px;
+}
+/* id: #intro */
+.ex24 #intro {
+  border-left: 4px solid blue;
+  padding-left: 10px;
+}

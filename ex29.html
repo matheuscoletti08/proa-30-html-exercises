@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Exercicio 29</title>
+<style>
+  .card {
+    border: 2px solid #333;
+    border-radius: 10px;
+    margin: 15px;   /* EXTERNO: afasta o card de outros elementos */
+    padding: 15px;  /* INTERNO: afasta o conteudo da borda */
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .card h3 { margin-top: 0; }
+  .card button { margin-top: 10px; }
+
+  /* margin eh o espaco FORA da borda
+     padding eh o espaco DENTRO da borda */
+</style>
+</head>
+<body>
+<h1>Cards - Box Model</h1>
+
+<div class="card">
+  <h3>Curso HTML</h3>
+  <p>Aprenda a estruturar paginas web.</p>
+  <button>Inscrever</button>
+</div>
+
+<div class="card">
+  <h3>Curso CSS</h3>
+  <p>Aprenda a estilizar paginas web.</p>
+  <button>Inscrever</button>
+</div>
+
+<div class="card">
+  <h3>Curso JS</h3>
+  <p>Aprenda a criar interacoes.</p>
+  <button>Inscrever</button>
+</div>
+</body>
+</html>

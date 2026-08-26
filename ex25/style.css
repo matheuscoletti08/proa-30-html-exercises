@@ -1,0 +1,22 @@
+/* seletor de elemento */
+.ex25 h2 {
+  color: green;
+}
+/* seletor de classe */
+.ex25 .azul {
+  color: blue;
+}
+/* seletor de id */
+.ex25 #unico {
+  color: red;
+  font-weight: bold;
+}
+/* agrupado: aplica regras a varios seletores de uma vez */
+.ex25 h3,
+.ex25 li {
+  font-style: italic;
+}
+/* descendente: pega strong dentro de .cartao */
+.ex25 .cartao strong {
+  background: orange;
+}

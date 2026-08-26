@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Exercicio 23</title>
+<!-- css externo, serve para varias paginas -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="pag23">
+  <h1>Minha primeira estilizacao</h1>
+  <p>Este texto foi estilizado usando um arquivo CSS externo (style.css).</p>
+
+  <!-- regras dentro de <style> no head, valem so para esta pagina -->
+  <style>
+    .interno { color: purple; }
+  </style>
+  <p class="interno">Este paragrafo usa CSS interno.</p>
+
+  <!-- css inline, direto no elemento. -->
+  <p style="color: orange; font-size: 20px;">Este paragrafo usa CSS inline.</p>
+</div>
+</body>
+</html>
