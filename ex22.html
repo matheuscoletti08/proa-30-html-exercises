@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Exercicio 22</title>
+</head>
+<body>
+
+<h1>Primeiro JavaScript</h1>
+
+<p id="texto">Este e o texto original.</p>
+
+<button onclick="mudar()">Clique aqui</button>
+<button onclick="voltar()">Voltar texto</button>
+
+<script>
+// funcao que muda o texto da pagina
+function mudar() {
+  document.getElementById("texto").innerHTML = "Voce clicou no botao!";
+}
+
+// funcao que volta o texto original
+function voltar() {
+  document.getElementById("texto").innerHTML = "Este e o texto original.";
+}
+</script>
+
+</body>
+</html>
