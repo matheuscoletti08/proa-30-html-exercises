@@ -1,36 +1,36 @@
 # Exercícios de HTML5 e CSS3 — PROA
 
-Este repositório reúne os exercícios propostos pelo curso do **PROA**, feitos para finalizar a UC de **HTML e CSS**.
+Aqui ficam os 30 exercícios do PROA que fiz pra fechar a disciplina de HTML e CSS. Do básico até um projeto final, passando por tudo que a gente viu em aula.
 
-São 30 atividades, do nível iniciante até um projeto integrador, cobrindo os principais conceitos de HTML5 e CSS3.
+Acesse o site aqui: **[proa-30-html-exercises](https://matheuscoletti08.github.io/proa-30-html-exercises/)**
 
-## O que foi praticado
+## O que teve
 
-- Estrutura básica de páginas HTML
-- Títulos, parágrafos, formatação e citações
-- Atributos, comentários e elementos semânticos
-- Links, imagens, favicon e caminhos de arquivos
+- Montar página HTML do zero
+- Títulos, parágrafos, citações
+- Atributos, comentários, elementos semânticos
+- Links, imagens, favicon
 - Listas e tabelas
-- Diferença entre elementos block e inline
-- `div`, `class` e `id`
-- Botões e primeiros scripts com JavaScript
-- Iframe e incorporação de conteúdo externo
-- CSS externo, sintaxe, seletores e caça aos erros
-- Cores, fundos, bordas, margin e padding (Box Model)
+- Block vs inline
+- `div`, `class`, `id`
+- Botões e uns scripts com JavaScript
+- Iframe
+- CSS externo, seletores, caça aos erros
+- Cores, fundos, bordas, margin, padding (Box Model)
 
-## Organização dos arquivos
+## Como tá organizado
 
-- **ex01.html a ex10.html**: primeiros passos com HTML.
-- **ex11/**: site de 3 páginas (index, sobre, contato) com pasta `pages`.
-- **ex12.html a ex22.html**: atributos, favicon, listas, tabelas, block/inline, div, classes, id, botões, iframe e JavaScript.
-- **ex23/ a ex26/**: exercícios de CSS (cada um com sua pasta e `style.css`).
-- **cores.html** (ex27): laboratório de cores.
-- **ex28.html, ex29.html**: fundos com CSS e cards com Box Model.
-- **projeto-final/**: exercício 30, o projeto integrador.
+- **ex01 a ex10**: o começo, HTML básico
+- **ex11**: um mini site com 3 páginas (index, sobre, contato)
+- **ex12 a ex22**: atributos, favicon, listas, tabelas, block/inline, div, classes, id, botões, iframe, JavaScript
+- **ex23 a ex26**: exercícios de CSS (cada um com sua pasta e `style.css`)
+- **ex27 (cores.html)**: laboratório de cores
+- **ex28, ex29**: fundos com CSS e cards usando Box Model
+- **projeto-final/**: exercício 30, o projeto integrador
 
-## Projeto integrador — Peixaria Mar Azul (ex30)
+## Projeto final — Peixaria Mar Azul (ex30)
 
-Site completo de uma peixaria fictícia, com 3 páginas, menu, CSS externo e JavaScript no botão.
+Site de uma peixaria fictícia. Três páginas, menu, CSS fora e JavaScript no botão, um site super simples.
 
 ```
 projeto-final/
@@ -45,11 +45,8 @@ projeto-final/
     └── favicon.ico
 ```
 
-## Como visualizar
+## Como ver
 
-Abra qualquer arquivo `.html` no navegador (duplo clique).
-Para o projeto final, abra `projeto-final/index.html`.
+O mais fácil é acessar pelo GitHub Pages: **[proa-30-html-exercises](https://matheuscoletti08.github.io/proa-30-html-exercises/)**
 
-## Observação
-
-Todos os arquivos foram feitos como prática de sala de aula, com foco em entender a base de HTML e CSS.
+Se preferir rodar local, é só abrir o `.html` no navegador. O projeto final fica em `projeto-final/index.html`.
